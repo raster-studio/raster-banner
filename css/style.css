@@ -1,0 +1,77 @@
+
+
+body{
+  background: #000;
+  font-size: 14px;
+  width: 100%;
+  height: 100%;
+}
+
+a, a:visited, a:hover, a:visited:hover{
+  text-decoration: none;
+  outline: 0;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.banner{
+  background: url('../images/background.jpg') 0% 0% no-repeat;
+  width: 160px;
+  height: 220px;
+  position: relative;
+  overflow: hidden;
+}
+
+.frame{
+  top: 0;
+  bottom: 0; 
+  left: 0;
+  right: 0; 
+  margin: auto; 
+  position: absolute;
+}
+
+#frame1{
+  background: url('../images/logo.png') 0% 0% no-repeat;
+  width: 144px;
+  height: 52px;
+}
+
+.frame2{
+  width: 109px;
+  height: 154px;
+  visibility: hidden;
+}
+
+.path{
+  background: url('../images/path.png') 0% 0% no-repeat;
+  visibility: visible !important;
+
+}
+
+.bubble{
+  background: url('../images/bubble.png') 0% 0% no-repeat;
+}
+
+.line1{
+  background: url('../images/line1.png') 0% 0% no-repeat;
+}
+
+.line2{
+  background: url('../images/line2.png') 0% 0% no-repeat;
+}
+
+.line3{
+  background: url('../images/line3.png') 0% 0% no-repeat;
+}
+
+.line4{
+  background: url('../images/line4.png') 0% 0% no-repeat;
+}
+
+#frame3{
+  background: url('../images/frame1.png') 0% 0% no-repeat;
+  width: 112px;
+  height: 102px;
+}
