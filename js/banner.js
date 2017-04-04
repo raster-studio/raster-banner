@@ -4,8 +4,11 @@
 
 $(document).ready(function(){
   
-//  var url = $.url(); 
-//  var nr=parseInt(url.param('nr'));
+  var url = $.url(); 
+  var source=url.param('source');
+
+  $('#raster_link').attr('href','http://rasterstudio.hu/?utm_source='+source+'&utm_medium=banner&utm_campaign=Banner');
+
   var nr=1;
   
   if (typeof nr === 'undefined' || isNaN(nr)){
